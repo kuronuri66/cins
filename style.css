@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "cins";
+    src : url("c-in-s.ttf") format("truetype");
+}
+
+body {
+    font-family: cins;
+    color: white;
+    margin: 0;
+	justify-content: center;
+	margin: 0 0vw;
+
+	p{
+		font-family: sans-serif;
+		margin: 0 0 0 3vw;
+	}
+
+	h1 {
+		margin: 5dvh 0 0 0;
+	}
+
+	#title {
+		margin: 0;
+		padding: 1dvh;
+		background-color: #091024;
+		padding-bottom: 5dvh;
+		
+		#svg_title {
+			width:15vw;
+			height: auto;
+			margin: 1vw;
+		}
+	}
+	
+	#container{
+
+		width:90vw;
+		margin: 0 3vw 10dvh 3vw;
+
+		
+
+		#setsumeisvg{
+			margin: 5vh 0;
+			svg {
+				width:15vw;
+				height: auto;
+			}
+
+			span {
+				font-size: 5vw;
+			}
+		}
+	}
+
+	img {
+		width: 60vw;
+		margin: 5vh 3vh;
+	}
+
+	textarea {
+		width: 60vw;
+		height: 50dvh;
+		margin: 5vh 3vh;
+		background-color: #091024;
+		color: white;
+		font-family: cins;
+		font-size: 8dvh;
+		resize: none;
+		border: none;
+	}
+
+	#download_div {
+		padding: 2vw;
+		margin: 3vw;
+	}
+
+	#download {
+		background-color: #040519;
+		padding: 2vw;
+	}
+
+}
+
